@@ -5,7 +5,7 @@
   --bg-secondary: #f9f9f9;
   --text-primary: #333333;
   --text-secondary: #666666;
-  --accent-color: #ffb399; /* Pale orange for buttons */
+  --accent-color: #ffb399;
   --accent-hover: #ffa280;
   --border-color: #e0e0e0;
 }
@@ -88,7 +88,6 @@ select {
     filter: blur(0.5px);
   }
   
-  /* Flame pixel positions and colors */
   .flame-pixel:nth-child(1) { left: 14px; top: 24px; background-color: #FFF; box-shadow: 0 0 4px #FFF; }
   .flame-pixel:nth-child(2) { left: 14px; top: 20px; background-color: #FFF700; box-shadow: 0 0 4px #FFF700; }
   .flame-pixel:nth-child(3) { left: 14px; top: 16px; background-color: #FFF700; box-shadow: 0 0 4px #FFF700; }
@@ -166,7 +165,7 @@ select {
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden;
 }
   
   .pagination {
@@ -234,7 +233,7 @@ select {
     transition: background-color 0.3s ease;
     width: 40px;
     text-align: center;
-    margin-right: 10px;  /* Add space between button and text */
+    margin-right: 10px;
   }
   
   .copy-button:hover {
@@ -394,11 +393,11 @@ select {
   }
 
   .mint-failure {
-    color: #FF6600;  /* A more orange color */
-    font-size: 1.2em;  /* Makes the text larger */
-    display: block;  /* Makes it a block-level element for centering */
-    text-align: center;  /* Centers the text */
-    margin-top: 10px;  /* Adds some space above the message */
-    margin-bottom: 10px;  /* Adds some space below the message */
-    font-weight: bold;  /* Makes the text bold for emphasis */
+    color: #FF6600;
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
   }

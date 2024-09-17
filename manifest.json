@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Lit Protocol PKP Manager",
+  "version": "0.0.1",
+  "description": "An extension for viewing and managing PKPs",
+  "permissions": [
+    "identity",
+    "identity.email",
+    "storage",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["oauth2.html"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "host_permissions": [
+    "https://accounts.google.com/*",
+    "https://www.googleapis.com/*",
+    "https://dev-relay.litgateway.com/*"
+  ],
+  "oauth2": {
+    "client_id": "448596347599-i7rtbd4brmq5ef8e8nj4buebjmdk3mme.apps.googleusercontent.com",
+    "scopes": [ "openid", "email", "profile" ]
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "externally_connectable": {
+    "matches": [
+      "https://*.google.com/*",
+      "https://*.googleapis.com/*"
+    ]
+  }
+}
